@@ -19,6 +19,8 @@
 		E219EE6627F46522007DB507 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6527F46522007DB507 /* VideoPlayerViewController.swift */; };
 		E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6727F4653A007DB507 /* ChatViewController.swift */; };
 		E219EE6A27F46543007DB507 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6927F46543007DB507 /* ProfileViewController.swift */; };
+		E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6C27F5CE19007DB507 /* UIView.swift */; };
+		E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6F27F5D0B4007DB507 /* UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		E219EE6527F46522007DB507 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		E219EE6727F4653A007DB507 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E219EE6927F46543007DB507 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E219EE6C27F5CE19007DB507 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E219EE6F27F5D0B4007DB507 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 			children = (
 				E219EE4527F4628F007DB507 /* AppDelegate.swift */,
 				E219EE4727F4628F007DB507 /* SceneDelegate.swift */,
+				E219EE6E27F5D08E007DB507 /* Extensions */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -139,6 +144,15 @@
 				E219EE6127F464E9007DB507 /* RegisterViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		E219EE6E27F5D08E007DB507 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E219EE6C27F5CE19007DB507 /* UIView.swift */,
+				E219EE6F27F5D0B4007DB507 /* UITextField.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +229,10 @@
 				E219EE6027F464C2007DB507 /* LoginViewController.swift in Sources */,
 				E219EE6227F464E9007DB507 /* RegisterViewController.swift in Sources */,
 				E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */,
+				E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */,
 				E219EE4A27F4628F007DB507 /* ConversationViewController.swift in Sources */,
 				E219EE6627F46522007DB507 /* VideoPlayerViewController.swift in Sources */,
+				E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */,
 				E219EE4627F4628F007DB507 /* AppDelegate.swift in Sources */,
 				E219EE6A27F46543007DB507 /* ProfileViewController.swift in Sources */,
 				E219EE4827F4628F007DB507 /* SceneDelegate.swift in Sources */,
