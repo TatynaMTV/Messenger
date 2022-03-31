@@ -57,7 +57,7 @@ class NewConversationViewController: UIViewController {
     super.viewDidLayoutSubviews()
     
     tableView.frame = view.bounds
-    noResultsLabel.frame = CGRect(x: view.whidth / 4, y: (view.height - 200) / 2, width: view.whidth / 2, height: 200)
+    noResultsLabel.frame = CGRect(x: view.width / 4, y: (view.height - 200) / 2, width: view.width / 2, height: 200)
   }
   
   @objc private func dismissSelf() {

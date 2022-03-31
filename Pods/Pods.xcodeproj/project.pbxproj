@@ -2750,7 +2750,7 @@
 		DA510A34E33C4FC5AECD5B36F48540D5 /* GULNetworkInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkInternal.h; path = GoogleUtilities/Network/GULNetworkInternal.h; sourceTree = "<group>"; };
 		DA839C9C944FC7A6A1172E0417293B32 /* FIRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLogger.h; path = FirebaseCore/Sources/Private/FIRLogger.h; sourceTree = "<group>"; };
 		DAA6D5D75052EA1A294A1E1C2F295249 /* log_reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log_reader.h; path = db/log_reader.h; sourceTree = "<group>"; };
-		DAD50255B9B4AB2D43A945BAD2322B03 /* Pods-Messenger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Messenger"; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD50255B9B4AB2D43A945BAD2322B03 /* Pods_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAED7A2A6CC8746D005C5497BBB47701 /* FConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FConstants.h; path = FirebaseDatabase/Sources/Constants/FConstants.h; sourceTree = "<group>"; };
 		DB4CAA82DA9DDA9B9DEE9CE4DDD90668 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = "<group>"; };
 		DB4E31FEF8F88A720FE5A83DB93E4CFD /* FIRCoreDiagnosticsConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCoreDiagnosticsConnector.m; path = FirebaseCore/Sources/FIRCoreDiagnosticsConnector.m; sourceTree = "<group>"; };
@@ -3708,7 +3708,7 @@
 				0A9F46A999C47653013D3AD854352507 /* leveldb.framework */,
 				15A68A8F33BD9EB9AFD02465B0418BCF /* MessageKit */,
 				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
-				DAD50255B9B4AB2D43A945BAD2322B03 /* Pods-Messenger */,
+				DAD50255B9B4AB2D43A945BAD2322B03 /* Pods_Messenger.framework */,
 				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
 			);
@@ -5896,7 +5896,7 @@
 			);
 			name = "Pods-Messenger";
 			productName = Pods_Messenger;
-			productReference = DAD50255B9B4AB2D43A945BAD2322B03 /* Pods-Messenger */;
+			productReference = DAD50255B9B4AB2D43A945BAD2322B03 /* Pods_Messenger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */ = {

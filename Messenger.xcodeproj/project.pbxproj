@@ -25,6 +25,7 @@
 		E219EE7427F5E992007DB507 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E219EE7327F5E992007DB507 /* GoogleService-Info.plist */; };
 		E219EE7627F5F940007DB507 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE7527F5F940007DB507 /* DatabaseManager.swift */; };
 		E219EE7827F61ED9007DB507 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE7727F61ED9007DB507 /* NewConversationViewController.swift */; };
+		E219EE7A27F62BF7007DB507 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE7927F62BF7007DB507 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		E219EE7327F5E992007DB507 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E219EE7527F5F940007DB507 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		E219EE7727F61ED9007DB507 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		E219EE7927F62BF7007DB507 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		E2D4D69FA02F1BB24F31D6AE /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +159,7 @@
 				E219EE4727F4628F007DB507 /* SceneDelegate.swift */,
 				E219EE6E27F5D08E007DB507 /* Extensions */,
 				E219EE7527F5F940007DB507 /* DatabaseManager.swift */,
+				E219EE7927F62BF7007DB507 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				E219EE6027F464C2007DB507 /* LoginViewController.swift in Sources */,
 				E219EE6227F464E9007DB507 /* RegisterViewController.swift in Sources */,
 				E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */,
+				E219EE7A27F62BF7007DB507 /* StorageManager.swift in Sources */,
 				E219EE7827F61ED9007DB507 /* NewConversationViewController.swift in Sources */,
 				E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */,
 				E219EE4A27F4628F007DB507 /* ConversationsViewController.swift in Sources */,
