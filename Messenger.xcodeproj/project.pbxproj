@@ -23,6 +23,7 @@
 		E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6C27F5CE19007DB507 /* UIView.swift */; };
 		E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6F27F5D0B4007DB507 /* UITextField.swift */; };
 		E219EE7427F5E992007DB507 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E219EE7327F5E992007DB507 /* GoogleService-Info.plist */; };
+		E219EE7627F5F940007DB507 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE7527F5F940007DB507 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E219EE6C27F5CE19007DB507 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		E219EE6F27F5D0B4007DB507 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		E219EE7327F5E992007DB507 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E219EE7527F5F940007DB507 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		E2D4D69FA02F1BB24F31D6AE /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 				E219EE4527F4628F007DB507 /* AppDelegate.swift */,
 				E219EE4727F4628F007DB507 /* SceneDelegate.swift */,
 				E219EE6E27F5D08E007DB507 /* Extensions */,
+				E219EE7527F5F940007DB507 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				E219EE6627F46522007DB507 /* VideoPlayerViewController.swift in Sources */,
 				E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */,
 				E219EE4627F4628F007DB507 /* AppDelegate.swift in Sources */,
+				E219EE7627F5F940007DB507 /* DatabaseManager.swift in Sources */,
 				E219EE6A27F46543007DB507 /* ProfileViewController.swift in Sources */,
 				E219EE4827F4628F007DB507 /* SceneDelegate.swift in Sources */,
 				E219EE6427F4650B007DB507 /* PhotoViewerViewController.swift in Sources */,
