@@ -10,4 +10,9 @@ pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
 
+# Message
+pod 'MessageKit'
+pod 'JGProgressHUD'
+pod 'SDWebImage'
+
 end

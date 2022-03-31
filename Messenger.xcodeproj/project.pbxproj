@@ -10,7 +10,7 @@
 		1EBF0AE7AC16C96AD7D0B3CB /* Pods_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FBA64557EC810C4F99B47 /* Pods_Messenger.framework */; };
 		E219EE4627F4628F007DB507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE4527F4628F007DB507 /* AppDelegate.swift */; };
 		E219EE4827F4628F007DB507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE4727F4628F007DB507 /* SceneDelegate.swift */; };
-		E219EE4A27F4628F007DB507 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE4927F4628F007DB507 /* ConversationViewController.swift */; };
+		E219EE4A27F4628F007DB507 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE4927F4628F007DB507 /* ConversationsViewController.swift */; };
 		E219EE4D27F4628F007DB507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219EE4B27F4628F007DB507 /* Main.storyboard */; };
 		E219EE4F27F46291007DB507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E219EE4E27F46291007DB507 /* Assets.xcassets */; };
 		E219EE5227F46291007DB507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219EE5027F46291007DB507 /* LaunchScreen.storyboard */; };
@@ -24,6 +24,7 @@
 		E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6F27F5D0B4007DB507 /* UITextField.swift */; };
 		E219EE7427F5E992007DB507 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E219EE7327F5E992007DB507 /* GoogleService-Info.plist */; };
 		E219EE7627F5F940007DB507 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE7527F5F940007DB507 /* DatabaseManager.swift */; };
+		E219EE7827F61ED9007DB507 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE7727F61ED9007DB507 /* NewConversationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,7 @@
 		E219EE4227F4628F007DB507 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E219EE4527F4628F007DB507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E219EE4727F4628F007DB507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E219EE4927F4628F007DB507 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		E219EE4927F4628F007DB507 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		E219EE4C27F4628F007DB507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E219EE4E27F46291007DB507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E219EE5127F46291007DB507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		E219EE6F27F5D0B4007DB507 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		E219EE7327F5E992007DB507 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E219EE7527F5F940007DB507 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		E219EE7727F61ED9007DB507 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		E2D4D69FA02F1BB24F31D6AE /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,10 +116,11 @@
 		E219EE5927F46328007DB507 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E219EE4927F4628F007DB507 /* ConversationViewController.swift */,
+				E219EE4927F4628F007DB507 /* ConversationsViewController.swift */,
 				E219EE6B27F4657A007DB507 /* Login */,
 				E219EE6327F4650B007DB507 /* PhotoViewerViewController.swift */,
 				E219EE6527F46522007DB507 /* VideoPlayerViewController.swift */,
+				E219EE7727F61ED9007DB507 /* NewConversationViewController.swift */,
 				E219EE6727F4653A007DB507 /* ChatViewController.swift */,
 				E219EE6927F46543007DB507 /* ProfileViewController.swift */,
 			);
@@ -304,8 +307,9 @@
 				E219EE6027F464C2007DB507 /* LoginViewController.swift in Sources */,
 				E219EE6227F464E9007DB507 /* RegisterViewController.swift in Sources */,
 				E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */,
+				E219EE7827F61ED9007DB507 /* NewConversationViewController.swift in Sources */,
 				E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */,
-				E219EE4A27F4628F007DB507 /* ConversationViewController.swift in Sources */,
+				E219EE4A27F4628F007DB507 /* ConversationsViewController.swift in Sources */,
 				E219EE6627F46522007DB507 /* VideoPlayerViewController.swift in Sources */,
 				E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */,
 				E219EE4627F4628F007DB507 /* AppDelegate.swift in Sources */,
