@@ -82,7 +82,7 @@ class ChatViewController: MessagesViewController {
   }
   
   override func viewDidLoad() {
-    super.viewDidLoad()
+    super.viewDidLoad() 
     
     messagesCollectionView.messagesDataSource = self
     messagesCollectionView.messagesLayoutDelegate = self
@@ -132,8 +132,9 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
     let messageId = createMessageId() else { return }
     
     print("Sending: \(text)")
-    // Send message
+    
     let message = Message(sender: selfSender, messageId: messageId, sentDate: Date(), kind: .text(text))
+    // Send message
     if isNewConversation {
       // create convo in database
       DatabaseManager.shared.createNewConversation(with: otherUserEmail, name: self.title ?? "User", firstMessage: message) { [weak self] success in
@@ -147,7 +148,7 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
     } else {
       guard let conversationID = conversationId, let name = self.title else { return }
       // append to existing conversation data
-      DatabaseManager.shared.sendMessage(to: conversationID, name: name, newMessage: message) { succes in
+      DatabaseManager.shared.sendMessage(to: conversationID, otherUserEmail: otherUserEmail, name: name, newMessage: message) { succes in
         if succes {
           print("message sent")
         } else {
@@ -172,18 +173,19 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
 
 extension ChatViewController: MessagesDataSource, MessagesLayoutDelegate, MessagesDisplayDelegate {
   func currentSender() -> SenderType {
-    if let sender = selfSender {
-      return sender
-    }
-    fatalError("Self Sender is nil, email should be cached")
+      if let sender = selfSender {
+          return sender
+      }
+
+      fatalError("Self Sender is nil, email should be cached")
   }
-  
+
   func messageForItem(at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> MessageType {
-    return messages[indexPath.section]
+      return messages[indexPath.section]
   }
-  
+
   func numberOfSections(in messagesCollectionView: MessagesCollectionView) -> Int {
-    return messages.count
+      return messages.count
   }
 }
 
