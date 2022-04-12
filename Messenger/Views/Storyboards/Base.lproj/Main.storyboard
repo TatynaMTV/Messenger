@@ -60,7 +60,7 @@
         <scene sceneID="VQp-Aq-XkD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ldB-RR-8fr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chats" id="lHh-94-xyZ"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="message" catalog="system" id="lHh-94-xyZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="VU3-D2-8ak">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -79,7 +79,7 @@
         <scene sceneID="M83-5I-1gN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9mz-N7-O5o" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="G6e-WT-iBy"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="G6e-WT-iBy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="HZA-Rf-f14">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -100,6 +100,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hEY-hW-swy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="t5j-tI-UOs">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <color key="barTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -115,6 +116,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
