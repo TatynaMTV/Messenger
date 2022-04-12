@@ -33,7 +33,7 @@ class ProfileViewController: UIViewController {
     header.backgroundColor = .link
     let imageView = UIImageView(frame: CGRect(x: (header.width - 150) / 2, y: header.height / 4, width: 150, height: 150))
     imageView.contentMode = .scaleAspectFill
-    imageView.backgroundColor = .white
+    imageView.backgroundColor = .systemBackground
     imageView.layer.cornerRadius = imageView.width / 2
     imageView.layer.borderWidth = 3
     imageView.layer.borderColor = UIColor.white.cgColor

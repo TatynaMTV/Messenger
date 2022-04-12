@@ -21,6 +21,6 @@ extension UITextField {
     self.layer.borderColor = UIColor.lightGray.cgColor
     self.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
     self.leftViewMode = .always
-    self.backgroundColor = .white
+    self.backgroundColor = .secondarySystemBackground
   }
 }
