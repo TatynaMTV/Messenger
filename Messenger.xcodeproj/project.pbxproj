@@ -29,6 +29,7 @@
 		E22C2E7627FDAF010036DCF9 /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C2E7527FDAF000036DCF9 /* NewConversationCell.swift */; };
 		E2B161A227F9C5AF008D691D /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B161A127F9C5AF008D691D /* ConversationTableViewCell.swift */; };
 		E2DEF10728076A0D000DBB24 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF10628076A0D000DBB24 /* LocationPickerViewController.swift */; };
+		E2DEF109280AE94F000DBB24 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF108280AE94E000DBB24 /* ProfileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E2B161A127F9C5AF008D691D /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 		E2D4D69FA02F1BB24F31D6AE /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 		E2DEF10628076A0D000DBB24 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
+		E2DEF108280AE94E000DBB24 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			children = (
 				E2B161A127F9C5AF008D691D /* ConversationTableViewCell.swift */,
 				E22C2E7527FDAF000036DCF9 /* NewConversationCell.swift */,
+				E2DEF108280AE94E000DBB24 /* ProfileTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				E219EE6027F464C2007DB507 /* LoginViewController.swift in Sources */,
 				E219EE6227F464E9007DB507 /* RegisterViewController.swift in Sources */,
 				E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */,
+				E2DEF109280AE94F000DBB24 /* ProfileTableViewCell.swift in Sources */,
 				E2DEF10728076A0D000DBB24 /* LocationPickerViewController.swift in Sources */,
 				E219EE7A27F62BF7007DB507 /* StorageManager.swift in Sources */,
 				E219EE7827F61ED9007DB507 /* NewConversationViewController.swift in Sources */,
