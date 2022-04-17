@@ -223,6 +223,7 @@
 				E219EE3F27F4628F007DB507 /* Frameworks */,
 				E219EE4027F4628F007DB507 /* Resources */,
 				BE7AF32A4A9428D4FA7341AB /* [CP] Embed Pods Frameworks */,
+				E2DEF10A280C8CC1000DBB24 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -319,6 +320,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Messenger/Pods-Messenger-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E2DEF10A280C8CC1000DBB24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 

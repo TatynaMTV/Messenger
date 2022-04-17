@@ -40,6 +40,9 @@ class ProfileViewController: UIViewController {
                                                 preferredStyle: .alert)
             actionSheet.addAction(UIAlertAction(title: "YES", style: .destructive, handler: { [weak self] _ in
                 guard let strongSelf = self else { return }
+                
+                UserDefaults.standard.setValue(nil, forKey: "email")
+                UserDefaults.standard.setValue(nil, forKey: "name")
                 do {
                     try Auth.auth().signOut()
                     
