@@ -17,7 +17,6 @@
 		E219EE6027F464C2007DB507 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE5F27F464C2007DB507 /* LoginViewController.swift */; };
 		E219EE6227F464E9007DB507 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6127F464E9007DB507 /* RegisterViewController.swift */; };
 		E219EE6427F4650B007DB507 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6327F4650B007DB507 /* PhotoViewerViewController.swift */; };
-		E219EE6627F46522007DB507 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6527F46522007DB507 /* VideoPlayerViewController.swift */; };
 		E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6727F4653A007DB507 /* ChatViewController.swift */; };
 		E219EE6A27F46543007DB507 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6927F46543007DB507 /* ProfileViewController.swift */; };
 		E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219EE6C27F5CE19007DB507 /* UIView.swift */; };
@@ -30,6 +29,10 @@
 		E2B161A227F9C5AF008D691D /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B161A127F9C5AF008D691D /* ConversationTableViewCell.swift */; };
 		E2DEF10728076A0D000DBB24 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF10628076A0D000DBB24 /* LocationPickerViewController.swift */; };
 		E2DEF109280AE94F000DBB24 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF108280AE94E000DBB24 /* ProfileTableViewCell.swift */; };
+		E2DEF10F280F5512000DBB24 /* ConversationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF10E280F5512000DBB24 /* ConversationModels.swift */; };
+		E2DEF111280F5564000DBB24 /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF110280F5564000DBB24 /* ChatModels.swift */; };
+		E2DEF113280F55D0000DBB24 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF112280F55D0000DBB24 /* SearchResult.swift */; };
+		E2DEF117280F5666000DBB24 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEF116280F5666000DBB24 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +49,6 @@
 		E219EE5F27F464C2007DB507 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E219EE6127F464E9007DB507 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E219EE6327F4650B007DB507 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
-		E219EE6527F46522007DB507 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		E219EE6727F4653A007DB507 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E219EE6927F46543007DB507 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E219EE6C27F5CE19007DB507 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,10 @@
 		E2D4D69FA02F1BB24F31D6AE /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 		E2DEF10628076A0D000DBB24 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
 		E2DEF108280AE94E000DBB24 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		E2DEF10E280F5512000DBB24 /* ConversationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModels.swift; sourceTree = "<group>"; };
+		E2DEF110280F5564000DBB24 /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		E2DEF112280F55D0000DBB24 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		E2DEF116280F5666000DBB24 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +135,6 @@
 				E219EE4927F4628F007DB507 /* ConversationsViewController.swift */,
 				E219EE6B27F4657A007DB507 /* Login */,
 				E219EE6327F4650B007DB507 /* PhotoViewerViewController.swift */,
-				E219EE6527F46522007DB507 /* VideoPlayerViewController.swift */,
 				E219EE7727F61ED9007DB507 /* NewConversationViewController.swift */,
 				E219EE6727F4653A007DB507 /* ChatViewController.swift */,
 				E219EE6927F46543007DB507 /* ProfileViewController.swift */,
@@ -151,6 +156,10 @@
 		E219EE5B27F46347007DB507 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E2DEF10E280F5512000DBB24 /* ConversationModels.swift */,
+				E2DEF110280F5564000DBB24 /* ChatModels.swift */,
+				E2DEF116280F5666000DBB24 /* ProfileViewModel.swift */,
+				E2DEF112280F55D0000DBB24 /* SearchResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -350,12 +359,15 @@
 				E219EE6227F464E9007DB507 /* RegisterViewController.swift in Sources */,
 				E219EE6827F4653A007DB507 /* ChatViewController.swift in Sources */,
 				E2DEF109280AE94F000DBB24 /* ProfileTableViewCell.swift in Sources */,
+				E2DEF113280F55D0000DBB24 /* SearchResult.swift in Sources */,
 				E2DEF10728076A0D000DBB24 /* LocationPickerViewController.swift in Sources */,
+				E2DEF117280F5666000DBB24 /* ProfileViewModel.swift in Sources */,
 				E219EE7A27F62BF7007DB507 /* StorageManager.swift in Sources */,
 				E219EE7827F61ED9007DB507 /* NewConversationViewController.swift in Sources */,
+				E2DEF10F280F5512000DBB24 /* ConversationModels.swift in Sources */,
 				E219EE7027F5D0B4007DB507 /* UITextField.swift in Sources */,
 				E219EE4A27F4628F007DB507 /* ConversationsViewController.swift in Sources */,
-				E219EE6627F46522007DB507 /* VideoPlayerViewController.swift in Sources */,
+				E2DEF111280F5564000DBB24 /* ChatModels.swift in Sources */,
 				E219EE6D27F5CE19007DB507 /* UIView.swift in Sources */,
 				E22C2E7627FDAF010036DCF9 /* NewConversationCell.swift in Sources */,
 				E219EE4627F4628F007DB507 /* AppDelegate.swift in Sources */,
