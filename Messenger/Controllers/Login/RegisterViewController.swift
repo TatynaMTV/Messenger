@@ -52,10 +52,6 @@ final class RegisterViewController: UIViewController {
         title = "Register"
         view.backgroundColor = .systemBackground
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register",
-                                                            style: .done,
-                                                            target: self,
-                                                            action: #selector(didTapRegister))
         registerButton.addTarget(self, action: #selector(registerButtonTapped), for: .touchUpInside)
         
         emailField.delegate = self
@@ -116,7 +112,7 @@ final class RegisterViewController: UIViewController {
     }
     
     @objc private func didTapChangeProfilePic() {
-        
+        presentPhotoActionSheet()
     }
     
     @objc private func registerButtonTapped() {
@@ -193,12 +189,6 @@ final class RegisterViewController: UIViewController {
         let cancel = UIAlertAction(title: "Dismiss", style: .cancel)
         alert.addAction(cancel)
         present(alert, animated: true)
-    }
-    
-    @objc private func didTapRegister() {
-        let vc = RegisterViewController()
-        vc.title = "Create Account"
-        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
